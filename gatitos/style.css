@@ -1,0 +1,78 @@
+/* Resetting default margin and padding */
+body, h1, h2, article {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Basic styling */
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    padding: 20px;
+  }
+  
+  h1 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  h2 {
+    margin-bottom: 10px;
+  }
+  
+  section {
+    margin-bottom: 30px;
+  }
+  
+  article {
+    margin-bottom: 15px;
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  button {
+    padding: 8px 16px;
+    border: none;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 3px;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  input[type="file"] {
+    display: none;
+  }
+  
+  img {
+    display: block;
+    margin-bottom: 10px;
+    border-radius: 5px;
+  }
+  
+  #error {
+    color: red;
+  }
+  
+  /* Responsive design */
+  @media screen and (max-width: 768px) {
+    section {
+      display: flex;
+      flex-direction: column;
+    }
+  
+    article {
+      margin-bottom: 10px;
+    }
+  
+    img {
+      width: 100%;
+    }
+  }
+  

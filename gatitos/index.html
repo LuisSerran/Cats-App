@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cats app</title>
+    <link rel="stylesheet" href="style.css">
+
+    
+</head>
+<body>
+
+    <h1> Random cats</h1>
+
+    <span id="error"></span>
+
+    <section id="randomMichis">
+        <h2>Cuttie cats</h2>
+
+        <article>
+            <img id='img1' width='150' alt="random cat generated">
+            <button id="btn1">
+                 Save cat in favourites
+            </button>
+        </article>
+
+        <article>
+            <img id='img2' width='150' alt="random cat generated">
+            <button id="btn2">
+                Save cat in favourites
+           </button>
+        </article>
+
+      <button onclick="loadRandomCats()">Another?</button>
+    </section>
+
+    <section id="uploadingCat">
+        <h2>Upload a Cat</h2>
+
+        <form id="uploadingForm">
+            <input id="file" type="file" name="file"  onchange="functionminiatura()" />
+            <button type="button" onclick="uploadCatPhoto()">Upload a pic</button>
+            
+        </form>
+    </section>
+
+    <sectionn id="favourites">
+        <h2>Your favourites</h2>
+
+        <article>
+            <img id='img1' width='150' alt="random cat generated">
+            <button>Unsave cat</button>
+        </article>
+    </sectionn>
+
+    
+ 
+
+    <script src="./main.js"></script>
+</body>
+</html>
